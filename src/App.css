@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card{
+  width: fit-content;
+  min-height: 100px;
+  background-color: aquamarine;
+  padding: 10px;  
+}
+.card li{
+  background-color: white;
+  list-style: none;
+  margin: 5px 0;
+  padding: 5px 10px;
+  justify-content: space-between;
+  display: flex;
+}
+.li button{
+  width: 30px;
+  border: none;
+}
